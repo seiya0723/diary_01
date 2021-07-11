@@ -1,10 +1,12 @@
+/* カレンダー装飾 */
 .calender {
     text-align:center;
     font-size:1.5rem;
     border:solid 0.2rem black;
+    margin-top:0.5rem;
 }
 .calender td{
-    padding:0.25rem;
+    padding:0.5rem;
     border:solid 0.1rem black;
 }
 .calender td:nth-child(1) {
@@ -13,8 +15,6 @@
 .calender td:nth-child(7) {
     color:royalblue;
 }
-
-
 .calender_head {
     font-weight:bold;
     border-bottom:double 0.2rem black;
